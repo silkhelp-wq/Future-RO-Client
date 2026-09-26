@@ -92,6 +92,9 @@ that's fine: the Future RO setup puts its own versions over them.
 3. On **Where is your Ragnarok client?**, choose the same folder (`C:\FutureRO`). The setup
    checks the client there before it installs anything.
 
+4. On **Main server address**, type the address from the [Future RO Discord](https://discord.gg/gSwM9t8Dcx) (ask
+   there), or leave it empty and add it later.
+
 That's it. The **Future RO** icon on your desktop checks for updates and then starts the game.
 
 Prefer to copy files yourself? Download `FutureRO-...-files.zip` instead and follow the

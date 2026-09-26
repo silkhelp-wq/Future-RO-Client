@@ -17,10 +17,14 @@ tabs 3-5, close WARPGATE).
    with `data.grf`; `C:\FutureRO` if you followed the guide). The setup checks the client
    there. If it is missing or incomplete it tells you what is wrong and how to fix it
    (usually: WARPGATE -> CLIENT tab -> **VERIFY**).
-4. On **Your solo account**, type the name and password you want for your own
+4. On **Main server address**, type the address of the Future RO main server. It is handed
+   out in the Future RO Discord (https://discord.gg/gSwM9t8Dcx): ask there. You can leave it empty and add it later
+   (the first start of **Future RO** asks for it; Start menu -> Future RO -> **Main server
+   address** changes it). Playing solo needs no address.
+5. On **Your solo account**, type the name and password you want for your own
    server on this PC (see *Playing solo* below). If you don't want a solo
    server, untick it on the components page instead.
-5. Click **Finish**. Double-click **Future RO** on your desktop to play on the
+6. Click **Finish**. Double-click **Future RO** on your desktop to play on the
    main server, or **Future RO solo** to play on your own.
 
 Future RO adds about 150 MB to the client folder. The setup never changes or deletes the
@@ -28,7 +32,7 @@ client's own files (`data.grf` and the rest).
 
 **Files only:** instead of the setup, `FutureRO-<version>-files.zip` can be extracted straight
 into the client folder; then double-click **Set up Future RO** in that folder (it installs the
-runtimes and makes the icons). That way has no solo server.
+runtimes, asks for the main server's address and makes the icons). That way has no solo server.
 
 ## Playing solo (your own server)
 

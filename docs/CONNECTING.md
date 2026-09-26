@@ -6,9 +6,14 @@ house. You set it up once; after that the game just connects.
 
 You do **not** need any of this to play solo (on your own PC).
 
-What you need from the host: **an invite link** (it looks like
-`https://login.tailscale.com/admin/invite/...`). Ask for one if you don't have it.
-Links expire after 30 days if nobody uses them.
+What you need from the host, both from the **Future RO Discord**
+(https://discord.gg/gSwM9t8Dcx - ask there):
+
+- **an invite link** (it looks like `https://login.tailscale.com/admin/invite/...`). Links
+  expire after 30 days if nobody uses them.
+- **the main server's address** (it looks like `100.x.x.x`). Future RO asks for it the first
+  time you start **Future RO**; Start menu -> Future RO -> **Main server address** (Linux and
+  macOS: `futurero address`) changes it later. Below it is written as `SERVER`.
 
 ## Step 1: Install Tailscale
 
@@ -60,7 +65,9 @@ Remember which login you used (Google, Microsoft...). You need the same one in s
 
 Open this address in your browser:
 
-    http://100.124.112.0:8090/patch/plist.txt
+    http://SERVER:8090/patch/plist.txt
+
+(with the address from the Discord in place of `SERVER`)
 
 - **A page with a few lines of text (or an empty white page)**: you're connected. Start the
   game.
@@ -86,7 +93,7 @@ Go down the list; most problems are the first two.
 5. **Your login expired.** Tailscale asks you to log in again every few months. Click the icon
    and log in.
 6. **Check from Tailscale itself.** Windows: open *Command Prompt* and run
-   `tailscale ping 100.124.112.0`. macOS/Linux: the same in *Terminal*. `pong` means the
+   `tailscale ping SERVER` (the address from the Discord). macOS/Linux: the same in *Terminal*. `pong` means the
    network is fine and the problem is the game or the server; `timed out` means Tailscale.
 7. **School or work network.** Some networks block the direct connection; Tailscale then goes
    through a relay. It still works, only a bit slower. If nothing gets through at all, try

@@ -21,6 +21,8 @@ things. The world's history is in [Episodes](EPISODES.md), the ready-made builds
 
 ## Your first minutes
 
+0. For the main server you need its address and a Tailscale invite: ask in the
+   [Future RO Discord](https://discord.gg/gSwM9t8Dcx), then see [Connecting](CONNECTING.md). Solo needs neither.
 1. Make a character. You start at the **Prontera fountain**.
 2. The **Build Master** greets you: pick a preset build for your class, build your own, or
    say no and play from level 1 the classic way. You can come back any time with `@build`.

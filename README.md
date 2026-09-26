@@ -12,7 +12,8 @@ history, from Lutie and Juno to Renewal and the fourth classes.</p>
 <a href="docs/PLAYING.md">How to play</a> ·
 <a href="docs/EPISODES.md">Episodes</a> ·
 <a href="docs/BUILDS.md">Builds</a> ·
-<a href="https://github.com/silkhelp-wq/Future-RO-Client/issues">Report a problem</a>
+<a href="https://github.com/silkhelp-wq/Future-RO-Client/issues">Report a problem</a> ·
+<a href="https://discord.gg/gSwM9t8Dcx">Discord</a>
 </p>
 
 ---
@@ -46,7 +47,8 @@ Step by step, with pictures: **[Get the client](docs/GET-THE-CLIENT.md)**
 
 **3. Play.** The **Future RO** icon checks for updates, then starts the game. **Future RO solo**
 starts your own server first (needs [Docker Desktop](https://www.docker.com/products/docker-desktop/), free).
-The main server needs a one-time [Tailscale setup](docs/CONNECTING.md).
+The main server needs a one-time [Tailscale setup](docs/CONNECTING.md) and its **address**:
+**ask for it in the [Future RO Discord](https://discord.gg/gSwM9t8Dcx)** (the setup and the first start ask you for it).
 
 > Already have the 2025-07-16 client from WARPGATE? Skip step 1. The setup checks your
 > folder and only adds what Future RO needs (about 150 MB).

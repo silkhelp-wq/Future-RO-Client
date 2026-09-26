@@ -12,6 +12,8 @@
      2025-07-16" (free, 3.8 GB). No client yet? Choose **1** and the installer opens WARPGATE
      for you; already have it? Choose **2** and type its folder. Step by step:
      https://github.com/silkhelp-wq/Future-RO-Client/blob/main/docs/GET-THE-CLIENT.md
+   - **Main server address**: the address of the Future RO main server, handed out in the
+     Future RO Discord (https://discord.gg/gSwM9t8Dcx). Press Enter to add it later (`futurero address`).
    - **Solo server**: say yes to play on your own PC too. It needs Docker (or Podman).
    - **Your solo account**: the name and password you log in with on the solo server.
 4. Start **Future RO** (main server) or **Future RO solo** from your applications menu, or
